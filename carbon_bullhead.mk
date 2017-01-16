@@ -29,9 +29,6 @@ $(call inherit-product, vendor/carbon/config/common.mk)
 # Inherit device configuration
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
-
 PRODUCT_NAME := carbon_bullhead
 PRODUCT_DEVICE := bullhead
 PRODUCT_BRAND := google
